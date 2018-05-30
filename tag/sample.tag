@@ -4,10 +4,11 @@
         <li each={ techs }>{ name }</li>
     </ul>
 
-    <!-- TODO Add a description -->
+    <p>{description}</p>
 
     <script>
         this.message = 'Hello, Riot!'
+        this.description = 'A description...'
         this.techs = [
             { name: 'HTML' },
             { name: 'JavaScript' },

@@ -1,7 +1,7 @@
 <conditional>
     <h3>If</h3>
     <ul>
-        <li each={ techs } if={ odd }>
+        <li each={ techs } show={ odd }>
             { name }
         </li>
     </ul>
